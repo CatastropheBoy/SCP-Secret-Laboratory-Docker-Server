@@ -3,7 +3,8 @@ EXPOSE 7777/udp 7777/tcp
 
 
 ENV GAMEID=700330 \
-	GAMEDIR=/home/steam/SCP-Secret-Laboratory
+	GAMEDIR=/home/steam/SCP-Secret-Laboratory \
+    SERVERPORT=7777 
 
 WORKDIR /home/steam
 
