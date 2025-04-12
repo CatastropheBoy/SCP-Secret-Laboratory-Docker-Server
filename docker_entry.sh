@@ -18,6 +18,8 @@ set_config_value() {
     fi
 }
 
+echo "Editing config file ${CONFIGDIR}/config_gameplay.txt"
+
 set_config_value "${CONFIGDIR}/config_gameplay.txt" "server_name" "${SERVERNAME}"
 set_config_value "${CONFIGDIR}/config_gameplay.txt" "minimum_players" "${MINPLAYERS}"
 
