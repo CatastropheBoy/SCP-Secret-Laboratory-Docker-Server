@@ -8,8 +8,9 @@ services:
       - "7777:7777/udp"
       - "7777:7777/tcp"
     environment:
-      HOSTNAME: "My Garry's Mod Server"
+      SERVERNAME: "My SCP Server"
       SERVERPORT: 7777
+      MINPLAYERS: 2
     volumes:
       - ./SCP-SL:/home/steam/SCP-Secret-Laboratory
     restart: unless-stopped

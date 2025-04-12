@@ -5,7 +5,10 @@ RUN apt update && apt install -y libicu-dev libicu72 && rm -rf /var/lib/apt/list
 
 ENV GAMEID=996560 \
 	GAMEDIR=/home/steam/SCP-Secret-Laboratory \
-    SERVERPORT=7777 
+    SERVERPORT=7777 \
+    CONFIGDIR=/home/steam/.configs/"SCP Secret Laboratory"/${SERVERPORT} \
+    SERVERNAME="SCP: Secret Laboratory" \
+    MINPLAYERS=2
 
 WORKDIR /home/steam
 
