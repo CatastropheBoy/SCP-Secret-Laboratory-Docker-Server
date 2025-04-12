@@ -1,7 +1,7 @@
 FROM cm2network/steamcmd:root
 EXPOSE 7777/udp 7777/tcp
 
-RUN sudo apt update && sudo apt install -y libicu-dev libicu72 && rm -rf /var/lib/apt/lists/* && apt-get clean
+RUN apt update && apt install -y libicu-dev libicu72 && rm -rf /var/lib/apt/lists/* && apt-get clean
 
 ENV GAMEID=996560 \
 	GAMEDIR=/home/steam/SCP-Secret-Laboratory \
