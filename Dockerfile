@@ -2,7 +2,7 @@ FROM cm2network/steamcmd:root
 EXPOSE 7777/udp 7777/tcp
 
 
-ENV GAMEID=700330 \
+ENV GAMEID=996560 \
 	GAMEDIR=/home/steam/SCP-Secret-Laboratory \
     SERVERPORT=7777 
 
