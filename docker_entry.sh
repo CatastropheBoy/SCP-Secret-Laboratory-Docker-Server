@@ -5,4 +5,4 @@ ${STEAMCMDDIR}/steamcmd.sh +force_install_dir ${GAMEDIR} +login anonymous \
 
 cd ${GAMEDIR}
 
-exec ./LocalAdmin ${SERVERPORT} --acceptEULA --useDefault --printStd
+exec ./LocalAdmin ${SERVERPORT} --acceptEULA --useDefault
