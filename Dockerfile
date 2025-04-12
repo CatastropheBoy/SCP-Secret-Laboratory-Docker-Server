@@ -14,5 +14,5 @@ COPY --chown=steam docker_entry.sh ./
 RUN chown -R steam:steam /home/steam 
 RUN chmod a+rx docker_entry.sh
 
-#USER steam
+USER steam
 CMD ["./docker_entry.sh"]
