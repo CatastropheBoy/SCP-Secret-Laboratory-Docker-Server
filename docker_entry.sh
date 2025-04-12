@@ -19,8 +19,11 @@ set_config_value() {
 }
 
 echo "Editing config file \"${CONFIGDIR}/config_gameplay.txt\""
+cat "${CONFIGDIR}/config_gameplay.txt"
 
 set_config_value "\"${CONFIGDIR}/config_gameplay.txt\"" "server_name" "${SERVERNAME}"
 set_config_value "\"${CONFIGDIR}/config_gameplay.txt\"" "minimum_players" "${MINPLAYERS}"
 
 exec ./LocalAdmin ${SERVERPORT} --acceptEULA --useDefault
+
+cat "${CONFIGDIR}/config_gameplay.txt"
