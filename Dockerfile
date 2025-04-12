@@ -9,7 +9,7 @@ ENV GAMEID=996560 \
     SERVERNAME="SCP: Secret Laboratory" \
     MINPLAYERS=2
 
-ENV CONFIGDIR=/home/steam/.configs/"SCP Secret Laboratory"/${SERVERPORT}
+ENV CONFIGDIR=/home/steam/.config/SCP\ Secret\ Laboratory/${SERVERPORT}
 
 WORKDIR /home/steam
 
