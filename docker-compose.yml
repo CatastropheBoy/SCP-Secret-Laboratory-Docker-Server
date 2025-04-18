@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   scp-sl-server:
-    image: ninepiece2/scp-secret-laboratory-docker-server:latest
+    image: catastropheboy/scp-secret-laboratory-docker-server:latest
     container_name: scp-sl-server
     ports:
       - "7777:7777/udp"
